@@ -1,0 +1,134 @@
+/* style using media quires  */
+@media only screen and (max-width:480px){
+    /* media quires  for  navbar */
+    .navbar{
+        width:100%;
+        height:60px;
+        margin:0px;
+        background-color:white;
+        color:black;
+        padding:3px;
+        line-height:45px;
+        position:fixed;
+    }
+    .navbar a{
+        margin-left:30px;
+        text-decoration:none;
+        font-size:25px;
+    }
+    .navbar a:hover{
+        background-color:gray;
+        border-radius: 10px;
+    }
+}
+
+     /* quires for large image */
+     #name img{
+        width:100%;
+        height:200px;
+    }
+    /* mrdia quires for text */
+   
+     #name strong{
+        position:absolute;
+        top:130px;
+        left:130px;
+        font-size:20px;
+        border:1px solid gray;
+        background-color: gray;
+        padding:8px;
+    }
+
+    /* all heading */
+    h3{
+        margin-left:40px;
+        font-size: 30px;
+    }
+
+    /* project section */
+    
+    #projects img{
+        height:200px;
+        width:200px;
+        margin:20 auto;
+     }
+   #project1{
+    display:flex;
+    flex-direction: column;
+   }
+   #project2{
+    display:flex;
+    flex-direction: column;
+   }
+   #projects h4{
+    display:inline;
+    position:relative;
+    
+    color:white;
+    background-color: black;
+    border:1px solid black;
+
+}
+    
+    /* style for contact */
+
+
+#contact{
+    display:flex;
+    flex-direction: column;
+}
+#contact img{
+    height:200px;
+        width:200px;
+        margin:20px auto;
+        
+   }
+   #contact strong{
+    font-size:40px;
+    margin-left:40px;
+   }
+   #contact b{
+    opacity:0.5;
+    font-size:20px;
+    display:inline-block;
+    margin-left:40px;
+   }
+   #contact button{
+    background-color:aliceblue;
+    border: 1px solid aliceblue;
+    width:20px;
+    padding:5px;
+    text-align:center;
+    margin-left:40px;
+}
+#contact button:hover{
+    background-color: gray;}
+
+#contact p{
+    text-align:justify;
+    border:1px solid white;
+}
+    
+    /* form */
+
+        #form input{
+            text-align:left;
+            padding:10px;
+            margin-left:10px;
+            }
+        
+            #maps iframe{
+                width:100%;
+            }
+        
+        .foot h5{
+            border:1 solid black;
+            background-color:black;
+            padding:20px;
+            text-align:center;
+            color:white;
+            width:100%;
+            height:70px;
+           }
+}
+       

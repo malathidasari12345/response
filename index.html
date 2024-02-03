@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>template</title>
+    <link rel="stylesheet" href="fake.css">
+    <style>
+         :root{
+            --b:1px;
+            --s:30px;
+        }
+        .navbar{
+            width:100%;
+            position:fixed;
+            margin-top:0px;
+            padding:15px;
+            border:var(--b) solid white;
+            background-color:white
+        }
+        .navbar a{
+            padding:15px;
+            text-decoration:none;
+            color:black;
+            font-size:20px;
+        }
+        .navbar a:hover{
+            background-color:gray;
+            border-radius: 10px;
+        }
+        .right a{
+          position:relative;
+          left:450px;
+        }
+        img{
+            height:480px;
+            width:100%;
+        }
+        #name span{
+            
+            position:absolute;
+            top:250px;
+            left:450px;
+            font-size:50px;
+            
+        }
+        
+        #name span strong{
+            border:var(--b) solid gray;
+            background-color: gray;
+            padding:15px;
+            opacity:0.1px;
+            color:white;
+         }
+         /* project style */
+        #projects img{
+            height:200px;
+            width:250px;
+         }
+        #projects div{
+            padding:10px;
+        }
+         #projects h4{ 
+             display:inline; 
+            position:relative; 
+             bottom:200px; 
+             color:white; 
+             background-color: black; 
+             border:var(--b) solid black; 
+
+        }
+        #project1{
+            display:flex
+        }
+       
+        #project2{
+            display:flex
+        }
+        h3{
+            margin-left:20px;
+            font-size: 30px;
+        }
+     
+       #contact{
+        display:flex;
+       }
+       #contact img{
+        height:200px;
+            width:250px;
+            padding:8px;
+       }
+       #contact strong{
+        font-size:40px;
+
+       }
+       #contact b{
+        opacity:0.5;
+        font-size:20px;
+        display:inline-block;
+       }
+       #contact button{
+        background-color:aliceblue;
+        border: 1px solid aliceblue;
+        width:200px;
+        padding:10px;
+        text-align:center;
+        border-radius:10px;
+       }
+       #contact button:hover{
+        background-color: gray;
+       }
+       #form input{
+        text-align:left;
+        width:1000px;
+        padding:10px;
+       }
+       #form button{
+        text-align:center;
+        width:200px;
+        padding:10px;
+        border:1px solid black;
+        background-color:black;
+        color:white;
+       }
+       .foot h5{
+        border:var(--b) solid black;
+        background-color:black;
+        padding:25px;
+        text-align:center;
+        color:white;
+        margin:0px;
+       }
+   
+            
+    </style>
+</head>
+<body>
+    <!-- header section  to navbar creation-->
+    <header>
+    <div  class="navbar">
+        <a href="#"><strong>BR</strong>Architects</a>
+      
+    </div>
+</header>
+<!-- section to insert an image -->
+<section id="name">
+    
+    <img src="https://www.w3schools.com/w3images/architect.jpg">
+     <strong>BR</strong>
+    </section>
+<h3>Projects</h3>
+<!-- project section -->
+<div id="projects">
+    <!-- div for 1st 4photos -->
+    
+    <div id="project1">
+    
+    <div class="image1">
+        <image src="https://www.w3schools.com/w3images/house5.jpg">
+        
+    </div>
+    <div class="image2">
+        <image src="https://www.w3schools.com/w3images/house2.jpg">
+        
+    </div>
+    <div class="image3">
+        <image src="https://www.w3schools.com/w3images/house3.jpg">
+        
+    </div>
+    <div class="image4">
+        <image src="https://www.w3schools.com/w3images/house4.jpg">
+        
+    </div>
+</div>
+<!-- div for last 4 photos -->
+    <div id="project2">
+    <div class="image5">
+        <image src="https://www.w3schools.com/w3images/house2.jpg">
+        
+    </div>
+    <div class="image6">
+        <image src="https://www.w3schools.com/w3images/house5.jpg">
+        
+    </div>
+    <div class="image7">
+        <image src="https://www.w3schools.com/w3images/house4.jpg">
+        
+    </div>
+    <div class="image8">
+        <image src="https://www.w3schools.com/w3images/house3.jpg">
+        
+    </div>
+</div>
+</div>
+<!-- About section -->
+<div id="about">
+ <h3>About</h3>
+ <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<!-- contact information -->
+<div id="contact">
+    <div class="con">
+        <img src="https://www.w3schools.com/w3images/team2.jpg" height="300px" width="300px">
+         <strong>John Doe</strong><br>
+         <b>CEO & Founder</b>
+         <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+          <button>Contact</button>
+        </div>
+      <div class="con">
+         <img src="https://www.w3schools.com/w3images/team1.jpg">
+         <strong>Jane Doe</strong><br>
+         <b>Architect
+
+         </b>
+         
+         <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
+
+
+         </p>
+         <button>Contact</button>
+      </div>
+     <div >
+        <img src="https://www.w3schools.com/w3images/team3.jpg">
+        <strong>Mike Ross</strong><br>
+        <b>Architect
+
+        </b>
+        <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
+
+
+        </p>
+        <button>Contact</button>
+     </div>
+     <div>
+        <img src="https://www.w3schools.com/w3images/team4.jpg">
+        <strong>Dan Star</strong><br>
+        <b>Architect
+
+        </b>
+        <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
+
+
+        </p>
+        <button>Contact</button>
+     </div>
+</div>
+    <!--form for contact-->
+    <div id="form">
+        <h3>Contact</h3>
+        <h4>Lets get in touch and talk about your next project. </h4>
+        <!-- form -->
+        <form>
+           <input type="text" placeholder="Name"><br><br>
+           <input type="email"  placeholder="EMail"><br><br>
+           <input type="text"  placeholder="subject"><br><br>
+           <input type="text"  placeholder="Comment"><br><br>
+           <button>Send Message</button>
+        </form>
+    </div>
+    <div id="maps">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d486416.9576013618!2d82.93222615688511!3d17.73839581254106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a39431389e6973f%3A0x92d9c20395498468!2sVisakhapatnam%2C%20Andhra%20Pradesh!5e0!3m2!1sen!2sin!4v1706083189207!5m2!1sen!2sin" width="1050" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <footer class="foot">
+           <h5>powered by BR Architects</h5>
+    </footer>
+    
+    
+      
+    
+    
+
+    
+</body>
+</html>
